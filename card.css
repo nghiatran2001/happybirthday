@@ -1,0 +1,41 @@
+#card {
+  margin: 6%;
+  position: absolute;
+  width: 330px;
+  height: auto;
+  border-radius: 10px;
+  background-color: white;
+  background-image: url("https://scontent.fsgn2-8.fna.fbcdn.net/v/t39.30808-6/340843974_595288502546444_8036817288967271814_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_ohc=a_Xx3B9ihpEAX_mb9IH&_nc_ht=scontent.fsgn2-8.fna&oh=00_AfCjTK4UUL0Yk08BC-v4ZumcCZ8X8mPyBV99fQ6TzG5J6A&oe=6541A19A");
+  background-size: 50vh, 70vh;
+  box-shadow: 0px 0px 20px yellow;
+  transform: rotate(5deg);
+  opacity: 0;
+  top: -200%;
+  left: 0;
+}
+
+.picture {
+  margin: auto;
+  padding: 2%;
+  display: block;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px 0 blue;
+  width: 80px;
+  height: 80px;
+}
+
+h4 {
+  text-align: center;
+  -webkit-text-fill-color: rgba(3, 246, 246, 0.1);
+  -webkit-background-clip: text;
+  background-image: url("https://i.pinimg.com/originals/20/21/7f/20217f7fa2c9701b8128d8fb153a4db9.gif");
+  font-size: 20px;
+  padding: 10px;
+  overflow: hidden;
+}
+
+.card-show {
+  opacity: 1 !important;
+  top: 0 !important;
+  transition: all 2s;
+}

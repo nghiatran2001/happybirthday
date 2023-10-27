@@ -1,0 +1,71 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="canvas.css" />
+    <link rel="stylesheet" href="gift.css" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="card.css" />
+    <title>HAPPY BIRTHDAY</title>
+  </head>
+  <body>
+    <div class="happy">
+      <canvas id="canvas"></canvas>
+      <div class="balloon">
+        <div><span class="span">H</span></div>
+        <div><span class="span">A</span></div>
+        <div><span class="span">P</span></div>
+        <div><span class="span">P</span></div>
+        <div><span class="span">Y</span></div>
+        <div><span class="span">B</span></div>
+        <div><span class="span">I</span></div>
+        <div><span class="span">R</span></div>
+        <div><span class="span">T</span></div>
+        <div><span class="span">H</span></div>
+        <div><span class="span">D</span></div>
+        <div><span class="span">A</span></div>
+        <div><span class="span">Y</span></div>
+      </div>
+      <audio id="player" autoplay loop>
+        <source src="./music.mp3" type="audio/mp3" />
+      </audio>
+      <section class="above-fold">
+        <p class="info-text">Nhấn để mở quà!</p>
+        <div class="wrap-present">
+          <div class="present-box" id="present">
+            <div class="present">
+              <div class="img-wrap" id="present-image"></div>
+            </div>
+            <div class="side front"></div>
+            <div class="side back"></div>
+            <div class="side left"></div>
+            <div class="side right"></div>
+            <div class="side top">
+              <span class="to">
+                <span class="name" id="nametag"> </span>
+              </span>
+            </div>
+            <div class="side bottom"></div>
+          </div>
+        </div>
+      </section>
+      <div id="card">
+        <h4>💘PHÙNG THỊ THÙY DUNG💘</h4>
+        <img
+          class="picture"
+          src="https://scontent.fsgn2-5.fna.fbcdn.net/v/t39.30808-6/356833375_3482378565308476_4011284044037060286_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=Ab1GsNu30jMAX_EOvNe&_nc_ht=scontent.fsgn2-5.fna&oh=00_AfD5a7ZXKRcBUfzvk2ie8AWkYDtxMNmJlCwNCmkotemQXQ&oe=65412A38"
+        />
+        <h4>
+          Happy Birthday Make A Wish.Happy Birthday Make A WishHappy Birthday
+          Make A Wish Dear brother, hope you receive everything you wish
+          forHappy Birthday Make A Wish this year. You deserve the best! Thanks
+          for being such a great brother.💘 Nhấn vào ảnh trong hộp quà để xem
+          điều bất ngờ dành cho bạn!
+        </h4>
+      </div>
+    </div>
+  </body>
+  <script src="canvas.js"></script>
+  <script src="gift.js"></script>
+</html>
